@@ -21,7 +21,7 @@ client.connect(err => {
 
     console.log('Database connected')
     app.get('/', (req, res) => {
-        res.send('This is home page')
+        res.send('Connected to DB and its working')
     })
 
 
